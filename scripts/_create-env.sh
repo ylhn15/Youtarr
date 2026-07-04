@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # If .env file does not exist, create it from .env.example
 # Automatically migrate "youtubeOutputDirectory" value from config.json to YOUTUBE_OUTPUT_DIR in .env
 # If config.json does not exist:

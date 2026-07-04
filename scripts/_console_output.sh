@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Shared helpers for consistent console output across startup scripts.
 YOUTARR_CONSOLE_DIVIDER='============================================================'

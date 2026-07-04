@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 export DEV_MODE=true
 export USE_EXTERNAL_DB=true

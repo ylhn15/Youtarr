@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Shared helpers for managing Youtarr's .env file and Docker Compose project state.
 # Pure functions only; safe to source from any script without triggering side effects.

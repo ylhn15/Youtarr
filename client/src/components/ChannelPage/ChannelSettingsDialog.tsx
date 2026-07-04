@@ -34,7 +34,7 @@ import { RATING_OPTIONS } from '../../utils/ratings';
 import RatingBadge from '../shared/RatingBadge';
 import TabsEditor, { TabsEditorRefreshResult } from './components/TabsEditor';
 
-interface ChannelSettings {
+export interface ChannelSettings {
   sub_folder: string | null;
   video_quality: string | null;
   min_duration: number | null;
@@ -267,6 +267,7 @@ function ChannelSettingsDialog({
     setSuccess(false);
 
     try {
+ 
       const response = await fetch(`/api/channels/${channelId}/settings`, {
         method: 'PUT',
         headers: {

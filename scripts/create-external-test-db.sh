@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Create and start an "external" MariaDB Docker container DB for testing
 # NOTE: To test this works, you will need to set your .env to match the settings here
 # And ensure that the DB is reachable from your host machine

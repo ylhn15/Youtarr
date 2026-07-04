@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Create a new Sequelize migration
 # Uses dbconfig.js which reads from .env file (if present)
 

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Trap signals for graceful shutdown
 trap 'handle_shutdown' SIGTERM SIGINT

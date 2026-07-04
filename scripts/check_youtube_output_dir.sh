@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Verifies that the YouTube output directory exists and is readable and writeable
 # Returns error and exits if not
 
